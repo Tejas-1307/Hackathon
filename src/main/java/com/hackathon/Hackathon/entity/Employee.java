@@ -21,7 +21,7 @@ public class Employee {
     @Column(name = "email" , length = 30)
     private String email;
 
-    @Column(name = "password", length = 10)
+    @Column(name = "password", length = 255)
     private String password;
 
     public Employee(Integer id,String employeeName, String email, String password) {
